@@ -4,10 +4,12 @@ ANTLR (Another Tool for Language Recognition) is a powerful parser generator for
 Having some working knowledge of the compiler and its design is a must for a programmer. In this project, I have tried to display whatever I have learned about the compiler. This project is part of the speech detector. I have used the ANTLR tool to implement the grammar for detecting parts of speech in a given English sentence. I have created grammar and dictionary to complete the task. The project demonstrates how a sentence can be parted and label the appropriate parts of speech. Many rules of grammar have been deployed to encircle the area of a larger range of sentences. A variety of sentences shows the possibilities of improving the way of dissecting an English sentence.
 
 The grammar program file (.g4) is executed using the ANTLR tool and the generated tokens files are run with java and it generates the class files. After executing the java file input of an English sentence is required. After the input, the java program generates a parse tree and shows that tree using a Graphical User Interface (GUI). That parse tree will contain the parts of speech of the given sentence. The input sentence was “I am a student of EWU” (Figure 1): 
-[image]
+![](Parts%20Of%20Speech%20Detection%20ANTLR/image001.png)
 
 Figure 1:  User giving an English sentence as input
-[image2]
+
+![](Parts%20Of%20Speech%20Detection%20ANTLR/image002.png)
+
 Figure 2:  ANTLR showing parse tree (detecting parts of speech)
 
 Developed grammar can detect various kinds of sentences that include simple, complex, and compound sentences. I can make it better by making the grammar able to detect tense, voice, and so on. And another thing can be added that I haven't yet included all English words into our dictionary, so there is a scope for development in there too. 
