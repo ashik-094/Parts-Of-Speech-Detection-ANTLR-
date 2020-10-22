@@ -8,7 +8,7 @@ The grammar program file (.g4) is executed using the ANTLR tool and the generate
 
 Figure 1:  User giving an English sentence as input
 
-![](Parts%20Of%20Speech%20Detection%20ANTLR/image002.png)
+![](Parts%20Of%20Speech%20Detection%20ANTLR/image002.jpg)
 
 Figure 2:  ANTLR showing parse tree (detecting parts of speech)
 
